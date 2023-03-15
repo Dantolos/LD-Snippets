@@ -16,6 +16,9 @@ Um dies zu umgehen, zB. komplexes Styling eines Formular, kann man den gesamten 
 
 ``` HTML
 <div class="target-container"></div>
+``` 
+
+``` JS
 <script>
 let url = "https://raw.githubusercontent.com/Dantolos/LD-Snippets/main/ld-basecamo-form.html"
 
@@ -43,5 +46,5 @@ window.onload = function() {
 	// send the request
 	request.send()
 }
-```
 </script>
+```
