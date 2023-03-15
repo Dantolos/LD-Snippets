@@ -1,18 +1,18 @@
 
 <style type="text/css" scoped>
-    
+   
     .mauticform_wrapper { max-width: 840px !important; margin: 10px auto; color:white; }
     .mauticform-innerform {}
     .mauticform-post-success {}
-    .mauticform-name { font-weight: normal; color:white; font-size: 1rem; margin-bottom: 2px; }
+    .mauticform-name { font-weight: normal; color:white; font-size: 1rem !important; margin-bottom: 2px; }
     .mauticform-description { margin-top: 2px; margin-bottom: 10px; }
-    .mauticform-error { margin-bottom: 10px; color: rgb(255, 0, 106); }
-    .mauticform-message { margin-bottom: 10px;color: #36d1a1; }
+    .mauticform-error { margin-bottom: 10px; color: #ff3b80 !important; }
+    .mauticform-message { margin-bottom: 10px;color: #36d1a1 !important; }
     .mauticform-row { display: block; margin-bottom: 20px; }
     .mauticform-label { font-size: 1rem; display: block; font-weight: normal; margin-bottom: 3px; }
-    .mauticform-row.mauticform-required .mauticform-label:after { color: #36d1a1; content: " *"; display: inline; }
+    .mauticform-row.mauticform-required .mauticform-label:after { color: #ff3b80 !important; content: " *"; display: inline; }
     .mauticform-helpmessage { display: block; font-size: 0.9em; margin-bottom: 3px; }
-    .mauticform-errormsg { display: block; color: rgb(255, 0, 106); margin-top: 2px; }
+    .mauticform-errormsg { display: block; color: #ff3b80 !important; margin-top: 2px; }
     .mauticform-selectbox, .mauticform-input, .mauticform-textarea { 
         width: 100% !important; 
         padding: 39px 19px !important; 
@@ -37,7 +37,7 @@
     .mauticform-radiogrp-row {}
     .mauticform-radiogrp-label { font-weight: normal; }
     .mauticform-radiogrp-radio {}
-    .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { font-size:1rem; color: #fff;background-color:  #36d1a1; border:none; border-radius:30px;}
+    .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { font-size:1rem !important; color: #fff !important;background-color: #36d1a1 !important; border:none; border-radius:30px !important;}
     .mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 13px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
     .mauticform-button-wrapper .mauticform-button.btn-default[disabled], .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] { background-color: #ffffff; border-color: #dddddd; opacity: 0.75; cursor: not-allowed; }
     .mauticform-pagebreak-wrapper .mauticform-button-wrapper {  display: inline; }
