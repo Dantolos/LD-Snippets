@@ -26,18 +26,13 @@ window.onload = function() {
 	let request = new XMLHttpRequest()
 
 	request.onreadystatechange = function() {
-	
 		if (request.readyState == 4 && request.status == 200) {
-			// the text content of the response
 			let text = request.responseText
-
-			// render the text between the body tags to the screen
 			document.querySelector(".github-content-basecamp-form").innerHTML = text;
 		}
 	}
 	
 	request.open("GET", url)
-
 	request.send()
 }
 </script>
